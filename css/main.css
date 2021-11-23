@@ -2225,6 +2225,7 @@ html.no-csstransitions .home-content__main {
     text-align: left;
     margin-top: 3.6rem;
     margin: center;
+    text-align: center;
 }
 
 .timeline::before {
@@ -2236,12 +2237,14 @@ html.no-csstransitions .home-content__main {
     position: absolute;
     left: 2rem;
     top: 0;
+    text-align: center;
 }
 
 .timeline__block {
     position: relative;
     padding-left: 8rem;
     min-height: 28.8rem;
+    text-align: center;
     
 }
 
@@ -2255,6 +2258,7 @@ html.no-csstransitions .home-content__main {
     position: absolute;
     left: 2rem;
     top: .3rem;
+    text-align: center;
 }
 
 .timeline__header .timeline__timeframe {
@@ -2265,20 +2269,24 @@ html.no-csstransitions .home-content__main {
     color: rgba(0, 0, 0, 0.5);
     margin-bottom: .9rem;
     font-family: "montserrat-bold", sans-serif;
+    text-align: center;
 }
 
 .timeline__header h3 {
     line-height: 1.25;
     margin: 0 0 .3rem 0;
+    text-align: center;
 }
 
 .timeline__header h5 {
     margin-top: 0;
+    text-align: center;
 }
 
 .timeline__desc p {
     margin: 0;
     padding-bottom: 3rem;
+    text-align: center;
 }
 
 
@@ -4165,4 +4173,9 @@ body::-webkit-scrollbar {
     background-position: 50% 50%;
   }
   
+  .Foto {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    }
 
